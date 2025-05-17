@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,47 +15,50 @@ namespace Examen.ApplicationCore.Services
         {
         }
 
-        public double CalculerMontantTotal(Bilan bilan)
+
+
+        public IEnumerable<IGrouping<Bilan, Analyse>> ObtenirAnalysesAnormalesParBilan(Patient p)
         {
-            double montantTotal = bilan.Analyses.Sum(a => a.PrixResultat);
+            // Récupérer les bilans de cette année
+            var bilans = p.Bilans
+                .Where(b => b.DatePrelevement.Year == DateTime.Now.Year)
+                .ToList();
 
-            int nombrePrelevements = GetMany(b => b.CodePatient == bilan.CodePatient).Count();
+            // Aplatir toutes les analyses avec leur bilan associé
+            var analysesAvecBilan = bilans
+                .SelectMany(
+                    b => b.Analyses,
+                    (bilan, analyse) => new { Bilan = bilan, Analyse = analyse }
+                );
 
-            if (nombrePrelevements > 5)
-            {
-                montantTotal *= 0.9;
-            }
+            // Filtrer les analyses anormales
+            var analysesAnormales = analysesAvecBilan
+                .Where(x =>
+                    double.TryParse(x.Analyse.ValeurAnalyse, out double valeur)
+                    && (valeur < x.Analyse.ValeurMinNormale || valeur > x.Analyse.ValeurMaxNormale)
+                );
 
-            return montantTotal;
-        }
-        
-            public IList<(Bilan Bilan, IList<Analyse> AnalysesAnormales)> ObtenirAnalysesAnormalesParBilan(int codePatient)
-        {
-            var bilans = GetMany(b => b.CodePatient == codePatient && b.DatePrelevement.Year == DateTime.Now.Year).ToList();
+            // Regrouper les résultats par bilan
+            var resultats = analysesAnormales
+                .GroupBy(x => x.Bilan, x => x.Analyse);
 
-            var result = new List<(Bilan, IList<Analyse>)>();
-
-            foreach (var bilan in bilans)
-            {
-                var analysesAnormales = bilan.Analyses
-                    .Where(a => a.ValeurAnalyse != null &&
-                                (double.Parse(a.ValeurAnalyse) > a.ValeurMaxNormale || double.Parse(a.ValeurAnalyse) < a.ValeurMinNormale))
-                    .ToList();
-
-                if (analysesAnormales.Any())
-                {
-                    result.Add((bilan, analysesAnormales));
-                }
-            }
-
-            return result;
+            return resultats;
         }
         public DateTime ObtenirDateRecuperationBilan(Bilan bilan)
         {
-           
-            var dateRecuperation = bilan.Analyses
-                .Select(a => bilan.DatePrelevement.AddDays(a.DureeResultat))
-                .Max();
+            var max = 0;
+
+            foreach (var analyse in bilan.Analyses)
+            {
+                if (analyse.DureeResultat > max)
+                {
+                    max = analyse.DureeResultat;
+                }
+            }
+
+              var  dateRecuperation= bilan.DatePrelevement.AddDays(max);
+
+
 
             return dateRecuperation;
         }

@@ -9,10 +9,9 @@ namespace Examen.ApplicationCore.Interfaces
 {
     public interface IBilanService : IService<Bilan> 
     {
-        double CalculerMontantTotal(Bilan bilan);
 
 
-        public IList<(Bilan Bilan, IList<Analyse> AnalysesAnormales)> ObtenirAnalysesAnormalesParBilan(int codePatient);
+        public IEnumerable<IGrouping<Bilan, Analyse>> ObtenirAnalysesAnormalesParBilan(Patient p);
 
         public DateTime ObtenirDateRecuperationBilan(Bilan bilan);
 

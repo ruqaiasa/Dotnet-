@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Rendu Dotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\infirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\services\\infirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\interfaces\\iinfirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\interfaces\\iinfirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\bilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\services\\bilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\interfaces\\ibilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\interfaces\\ibilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\bilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\services\\bilanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\infirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\services\\infirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\bilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\bilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\interfaces\\iinfirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\interfaces\\iinfirmierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\analyse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\specialite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\laboratoire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\laboratoire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\infrimier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\infrimier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\domain\\bilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|solutionrelative:examen.applicationcore\\domain\\bilan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDDAD9D8-F5A9-4EF2-9FC9-568E2D709CEF}|Examen.ApplicationCore\\Examen.ApplicationCore.csproj|c:\\rendu dotnet\\examen.applicationcore\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,24 +78,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Examen.ApplicationCore\\Interfaces\\IPatientService.cs",
+              "ToolTip": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "Examen.ApplicationCore\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:46:03.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Examen.ApplicationCore\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\PatientService.cs",
+              "RelativeToolTip": "Examen.ApplicationCore\\Services\\PatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:45:22.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "InfirmierService.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\InfirmierService.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Services\\InfirmierService.cs",
               "ToolTip": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\InfirmierService.cs",
               "RelativeToolTip": "Examen.ApplicationCore\\Services\\InfirmierService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T21:51:31.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IInfirmierService.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IInfirmierService.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Interfaces\\IInfirmierService.cs",
@@ -95,25 +131,24 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Interfaces\\IInfirmierService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T21:50:59.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T21:50:59.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BilanService.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\BilanService.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Services\\BilanService.cs",
               "ToolTip": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\BilanService.cs",
               "RelativeToolTip": "Examen.ApplicationCore\\Services\\BilanService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T21:34:00.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Services\\Service.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Services\\Service.cs",
@@ -121,12 +156,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Services\\Service.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T21:32:24.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T21:32:24.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IService.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Interfaces\\IService.cs",
@@ -134,29 +168,24 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Interfaces\\IService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T21:31:30.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-05-07T21:31:30.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IBilanService.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IBilanService.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Interfaces\\IBilanService.cs",
               "ToolTip": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Interfaces\\IBilanService.cs",
               "RelativeToolTip": "Examen.ApplicationCore\\Interfaces\\IBilanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T21:30:27.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250404010730_test.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.Infrastructure\\Migrations\\20250404010730_test.cs",
               "RelativeDocumentMoniker": "Examen.Infrastructure\\Migrations\\20250404010730_test.cs",
@@ -164,12 +193,11 @@
               "RelativeToolTip": "Examen.Infrastructure\\Migrations\\20250404010730_test.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwBoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:07:30.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T01:07:30.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "BilanConfiguration.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.Infrastructure\\Configurations\\BilanConfiguration.cs",
               "RelativeDocumentMoniker": "Examen.Infrastructure\\Configurations\\BilanConfiguration.cs",
@@ -181,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Bilan.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Bilan.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Bilan.cs",
@@ -189,12 +217,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Bilan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:32:47.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T00:32:47.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AMcontext.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.Infrastructure\\AMcontext.cs",
               "RelativeDocumentMoniker": "Examen.Infrastructure\\AMcontext.cs",
@@ -206,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Patient.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Patient.cs",
@@ -214,12 +241,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Patient.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:46:51.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:46:51.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Infrimier.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Infrimier.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Infrimier.cs",
@@ -227,12 +253,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Infrimier.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:45:51.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:45:51.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Analyse.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Analyse.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Analyse.cs",
@@ -240,12 +265,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Analyse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:26:59.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:26:59.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Specialite.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Specialite.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Specialite.cs",
@@ -253,12 +277,11 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Specialite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:26:31.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:26:31.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Laboratoire.cs",
               "DocumentMoniker": "C:\\Rendu Dotnet\\Examen.ApplicationCore\\Domain\\Laboratoire.cs",
               "RelativeDocumentMoniker": "Examen.ApplicationCore\\Domain\\Laboratoire.cs",
@@ -266,8 +289,7 @@
               "RelativeToolTip": "Examen.ApplicationCore\\Domain\\Laboratoire.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:26:11.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:26:11.749Z"
             }
           ]
         }

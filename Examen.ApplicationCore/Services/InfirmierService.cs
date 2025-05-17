@@ -18,8 +18,8 @@ namespace Examen.ApplicationCore.Services
 
         {
             var infirmiers = GetMany().ToList();
-            int nbrInfavecSpecialite = infirmiers.Count(i => i.Specialite == specialite);
-             double pourcentage = nbrInfavecSpecialite/infirmiers.Count() * 100;
+            int nbr = infirmiers.Count(i=>i.Specialite == specialite);
+             double pourcentage = nbr/infirmiers.Count * 100;
             return pourcentage;
 
         }
