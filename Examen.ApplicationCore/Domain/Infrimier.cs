@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,9 @@ namespace Examen.ApplicationCore.Domain
         public string  NomComplet { get; set; }
         public Specialite Specialite { get; set; }
         public Laboratoire Laboratoire { get; set; }
+
+        [ForeignKey("Laboratoire")]
+        public  int  CodeLaboratoire { get; set; }
 
         //public IList<Patient> Patients{ get; set; }
         public IList<Bilan> Bilans{ get; set; }

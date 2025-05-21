@@ -46,3 +46,4 @@ C:\Rendu Dotnet\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.d
 C:\Rendu Dotnet\Examen.ApplicationCore\obj\Debug\net8.0\refint\Examen.ApplicationCore.dll
 C:\Rendu Dotnet\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.pdb
 C:\Rendu Dotnet\Examen.ApplicationCore\obj\Debug\net8.0\ref\Examen.ApplicationCore.dll
+C:\Rendu Dotnet\Examen.ApplicationCore\obj\Debug\net8.0\Examen.ApplicationCore.sourcelink.json

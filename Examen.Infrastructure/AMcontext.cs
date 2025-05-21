@@ -9,28 +9,28 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Examen.Infrastructure
 {
-    internal class AMcontext :DbContext
+    public class AMcontext : DbContext
     {
-        public DbSet<Laboratoire> Laboratoires{ get; set; }
+        public DbSet<Laboratoire> Laboratoires { get; set; }
         public DbSet<Infrimier> Infirmiers { get; set; }
-        public DbSet <Patient> Patients { get; set; }
-        public DbSet<Analyse> Analse{ get; set; }
-        
-        public DbSet<Bilan>Bilans { get; set; }
+        public DbSet<Patient> Patients { get; set; }
+        public DbSet<Analyse> Analse { get; set; }
+
+        public DbSet<Bilan> Bilans { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //appel 
             modelBuilder.ApplyConfiguration(new BilanConfiguration());
             modelBuilder.Entity<Laboratoire>()
-                .Property(L=>L.Localisation)
+                .Property(L => L.Localisation)
                 .HasColumnName("AdresseLabo")
                 .HasMaxLength(50);
 
 
         }
 
-       
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=(localdb)\mssqllocaldb;

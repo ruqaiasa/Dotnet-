@@ -109,7 +109,7 @@ namespace Examen.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InfirmierId"));
 
-                    b.Property<int>("LaboratoireId")
+                    b.Property<int>("CodeLaboratoire")
                         .HasColumnType("int");
 
                     b.Property<string>("NomComplet")
@@ -121,7 +121,7 @@ namespace Examen.Infrastructure.Migrations
 
                     b.HasKey("InfirmierId");
 
-                    b.HasIndex("LaboratoireId");
+                    b.HasIndex("CodeLaboratoire");
 
                     b.ToTable("Infirmiers");
                 });
@@ -217,7 +217,7 @@ namespace Examen.Infrastructure.Migrations
                 {
                     b.HasOne("Examen.ApplicationCore.Domain.Laboratoire", "Laboratoire")
                         .WithMany("Infrimiers")
-                        .HasForeignKey("LaboratoireId")
+                        .HasForeignKey("CodeLaboratoire")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

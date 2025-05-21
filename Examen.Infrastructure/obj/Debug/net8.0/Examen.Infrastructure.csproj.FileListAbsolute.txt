@@ -66,3 +66,4 @@ C:\Rendu Dotnet\Examen.Infrastructure\obj\Debug\net8.0\refint\Examen.Infrastruct
 C:\Rendu Dotnet\Examen.Infrastructure\obj\Debug\net8.0\Examen.Infrastructure.pdb
 C:\Rendu Dotnet\Examen.Infrastructure\obj\Debug\net8.0\Examen.Infrastructure.genruntimeconfig.cache
 C:\Rendu Dotnet\Examen.Infrastructure\obj\Debug\net8.0\ref\Examen.Infrastructure.dll
+C:\Rendu Dotnet\Examen.Infrastructure\obj\Debug\net8.0\Examen.Infrastructure.sourcelink.json

@@ -1136,3 +1136,4 @@ C:\Rendu Dotnet\Examen.UI.Web\obj\Debug\net8.0\refint\Examen.UI.Web.dll
 C:\Rendu Dotnet\Examen.UI.Web\obj\Debug\net8.0\Examen.UI.Web.pdb
 C:\Rendu Dotnet\Examen.UI.Web\obj\Debug\net8.0\Examen.UI.Web.genruntimeconfig.cache
 C:\Rendu Dotnet\Examen.UI.Web\obj\Debug\net8.0\ref\Examen.UI.Web.dll
+C:\Rendu Dotnet\Examen.UI.Web\obj\Debug\net8.0\Examen.UI.Web.sourcelink.json

@@ -14,6 +14,7 @@ namespace Examen.ApplicationCore.Services
         {
         }
 
+
         public double CalculerPourcentageInfirmiersParSpecialite(Specialite specialite)
 
         {
